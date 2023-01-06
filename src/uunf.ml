@@ -33,7 +33,7 @@ let u_dumb =                                     (* placeholder, overwritten. *)
 
 (* Normalization properties. *)
 
-let unicode_version = "%%UNICODE_VERSION%%"
+let unicode_version = "15.0.0"
 
 let nfc_boundary u = Uunf_tmapbool.get Uunf_data.nfc_boundary_map u
 let nfd_boundary u = Uunf_tmapbool.get Uunf_data.nfd_boundary_map u
