@@ -1,0 +1,9 @@
+(env
+ (dev
+  (flags
+   (:standard -warn-error -32))))
+
+(library
+  (public_name uunf)
+  (modules (:standard \ uunf_string)) ; uunf_string is excluded as it refers to uunf
+  (libraries uutf))
