@@ -7,3 +7,9 @@
   (public_name uunf)
   (modules (:standard \ uunf_string)) ; uunf_string is excluded as it refers to uunf
   (libraries uutf))
+
+(library
+  (public_name uunf.string)
+  (name uunf_string)
+  (modules uunf_string)
+  (libraries uunf uutf))
