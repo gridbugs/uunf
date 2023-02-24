@@ -159,7 +159,7 @@ let cmd =
     `P "This program is distributed with the Uunf OCaml library.
         See http://erratique.ch/software/uunf for contact information." ]
   in
-  Cmd.v (Cmd.info "unftrip" ~version:"%%VERSION%%" ~doc ~man)
+  Cmd.v (Cmd.info "unftrip" ~version:"v15.0.0" ~doc ~man)
     Term.(const do_cmd $ cmd $ nf $ file $ enc $ ascii)
 
 let main () = match Cmd.eval cmd with

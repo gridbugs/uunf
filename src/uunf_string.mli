@@ -10,7 +10,7 @@
     {b Warning.} All these function silently replace malformed encoded Unicode
     data by a {!Stdlib.Uchar.rep} character.
 
-    {e Unicode version %%UNICODE_VERSION%%} *)
+    {e Unicode version 15.0.0} *)
 
 (** {1:norm Normalize} *)
 

@@ -5,7 +5,7 @@ open Topkg
 
 let ucd_file = "support/ucd.xml"
 let ucd_uri =
-  "http://www.unicode.org/Public/%%UNICODE_VERSION%%/ucdxml/ucd.all.grouped.zip"
+  "http://www.unicode.org/Public/15.0.0/ucdxml/ucd.all.grouped.zip"
 
 let get_ucd () =
   let zipped = ucd_file ^ ".zip" in

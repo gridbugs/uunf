@@ -16,7 +16,7 @@
     Consult the {{!basics}basics}, {{!limits}limitations} and
     {{!examples}examples} of use.
 
-    {e Unicode version %%UNICODE_VERSION%%}
+    {e Unicode version 15.0.0}
 
     {3 References}
     {ul
