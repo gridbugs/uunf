@@ -20,7 +20,7 @@ maintainer: "Daniel Bünzli <daniel.buenzl i@erratique.ch>"
 authors: "The uunf programmers"
 license: "ISC"
 tags: ["unicode" "text" "normalization" "org:erratique"]
-homepage: "git://github.com/dune-universe/uunf"
+homepage: "https://github.com/dune-universe/uunf"
 bug-reports: "https://github.com/dbuenzli/uunf/issues"
 depends: [
   "dune"
